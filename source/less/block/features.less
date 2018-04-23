@@ -1,0 +1,42 @@
+.features {
+  background: @lightgrey;
+  padding-top: 40px;
+  min-height: 728px;
+  width: 100%;
+  background-image: url("../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: 50% 110%;
+}
+
+.features__wrapper {
+  width: 320px;
+  margin: auto;
+}
+
+@media (min-width: @tablet-width) {
+  .features {
+    text-align: right;
+    margin: auto;
+    background-position: 15% 5%;
+    min-height: 440px;
+    background-size: 292px;
+  }
+
+  .features__wrapper {
+    width: 660px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .features {
+    text-align: center;
+    background: @lightgrey;
+  }
+
+  .features__wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 960px;
+    justify-content: space-around;
+  }
+}
