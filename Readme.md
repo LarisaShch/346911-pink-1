@@ -1,7 +1,7 @@
-# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+﻿# Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Лариса Щербатых](https://up.htmlacademy.ru/adaptive/14/user/346911).
-* Наставник: `Неизвестно`.
+* Наставник: `Нет`.
 
 ---
 
