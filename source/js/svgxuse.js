@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!
  * @copyright Copyright (c) 2017 IcoMoon.io
  * @license   Licensed under MIT license
@@ -6,6 +7,9 @@
  */
 /*jslint browser: true */
 /*global XDomainRequest, MutationObserver, window */
+=======
+
+>>>>>>> 78f8e9197ed65f387b38de43f292abb8a7524a37
 (function () {
     "use strict";
     if (typeof window !== "undefined" && window.addEventListener) {
@@ -47,9 +51,13 @@
             }
         };
         var createRequest = function (url) {
+<<<<<<< HEAD
             // In IE 9, cross origin requests can only be sent using XDomainRequest.
             // XDomainRequest would fail if CORS headers are not set.
             // Therefore, XDomainRequest should only be used with cross origin requests.
+=======
+
+>>>>>>> 78f8e9197ed65f387b38de43f292abb8a7524a37
             function getOrigin(loc) {
                 var a;
                 if (loc.protocol !== undefined) {
