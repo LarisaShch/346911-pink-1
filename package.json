@@ -48,7 +48,12 @@
     "node": "8.11"
   },
   "dependencies": {
+<<<<<<< HEAD
     "del": "^3.0.0",
     "gulp-rename": "^1.2.2"
+=======
+    "gulp-rename": "^1.2.2",
+    "posthtml-include": "^1.1.0"
+>>>>>>> e641242ea9715964eee5d58788965340a57ad3aa
   }
 }
